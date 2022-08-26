@@ -1,0 +1,79 @@
+{
+  "traffic_lights_timetables": [
+    {
+      "id": 2496113387,
+      "direction_rules": [
+        {
+          "from_id": {
+            "road": 204056329,
+            "segment": 4
+          },
+          "to_id": {
+            "road": 204056329,
+            "segment": 5
+          },
+          "timetable": {
+            "holiday_record": {},
+            "weekdays_records": [
+              {
+                "weekdays": [
+                  "mo",
+                  "tu",
+                  "we",
+                  "th",
+                  "fr"
+                ],
+                "day_record": [
+                  {
+                    "start": 0,
+                    "stop": 28800,
+                    "type": "disabled"
+                  },
+                  {
+                    "start": 28801,
+                    "stop": 36000,
+                    "type": "normal",
+                    "starts_with_green": true,
+                    "green_duration": 180,
+                    "red_duration": 120
+                  },
+                  {
+                    "start": 36001,
+                    "stop": 64000,
+                    "type": "unknown"
+                  },
+                  {
+                    "start": 64001,
+                    "stop": 72000,
+                    "type": "normal",
+                    "starts_with_green": true,
+                    "green_duration": 140,
+                    "red_duration": 140
+                  },
+                  {
+                    "start": 72001,
+                    "stop": 86400,
+                    "type": "disabled"
+                  }
+                ]
+              },
+              {
+                "weekdays": [
+                  "sa",
+                  "su"
+                ],
+                "day_record": [
+                  {
+                    "start": 0,
+                    "stop": 86400,
+                    "type": "unknown"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
